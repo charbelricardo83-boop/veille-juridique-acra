@@ -12,9 +12,31 @@ jobs:
     steps:
       - name: Récupérer le dépôt
         uses: actions/checkout@v4
-
-      - name: Tester le système
+      - name: Créer la veille du jour
         run: |
-          echo "⚖️ Veille juridique ACRA"
-          echo "Le système fonctionne."
-          date
+          DATE=$(date +'%d-%m-%Y')
+          FICHIER="veille/2026/${DATE}.md"
+
+          mkdir -p veille/2026
+
+          echo "# ⚖️ Veille juridique ACRA — ${DATE}" > "$FICHIER"
+          echo "" >> "$FICHIER"
+          echo "## 🇧🇯 Bénin" >> "$FICHIER"
+          echo "" >> "$FICHIER"
+          echo "## ⚖️ OHADA / CCJA" >> "$FICHIER"
+          echo "" >> "$FICHIER"
+          echo "## 🌍 UEMOA" >> "$FICHIER"
+          echo "" >> "$FICHIER"
+          echo "## 🌍 CEDEAO" >> "$FICHIER"
+          echo "" >> "$FICHIER"
+          echo "## 🤖 IA et droit numérique" >> "$FICHIER"
+          echo "" >> "$FICHIER"
+          echo "## 🌐 Droit international" >> "$FICHIER"
+
+      - name: Enregistrer la veille
+        run: |
+          git config user.name "ACRA Veille"
+          git config user.email "acra-veille@users.noreply.github.com"
+          git add veille/
+          git commit -m "Veille juridique du jour" || echo "Aucune modification"
+          git push
