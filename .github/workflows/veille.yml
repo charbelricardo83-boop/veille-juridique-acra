@@ -1,0 +1,20 @@
+name: Veille juridique ACRA
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "0 6 * * *"
+
+jobs:
+  veille:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Récupérer le dépôt
+        uses: actions/checkout@v4
+
+      - name: Tester le système
+        run: |
+          echo "⚖️ Veille juridique ACRA"
+          echo "Le système fonctionne."
+          date
