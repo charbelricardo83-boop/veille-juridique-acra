@@ -16,13 +16,14 @@ jobs:
       - name: Récupérer le dépôt
         uses: actions/checkout@v4
 
-      - name: Générer la veille via IA (recherche web)
-        env:
-          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+      - name: Générer la veille (Google News RSS)
         run: |
           python3 - <<'EOF'
-          import json, os, urllib.request
+          import os, html
           from datetime import date
+          from urllib.request import urlopen, Request
+          from urllib.parse import quote
+          import xml.etree.ElementTree as ET
 
           today = date.today()
           DATE = today.strftime('%d-%m-%Y')
@@ -30,42 +31,38 @@ jobs:
           os.makedirs(f"veille/{ANNEE}", exist_ok=True)
           FICHIER = f"veille/{ANNEE}/{DATE}.md"
 
-          prompt = (
-              f"Fais une veille juridique datée du {DATE} pour un juriste basé au Bénin. "
-              "Cherche les actualités juridiques récentes (dernières 24-48h) dans ces rubriques : "
-              "1) Bénin (lois, décrets, jurisprudence) 2) OHADA / CCJA 3) UEMOA 4) CEDEAO "
-              "5) IA et droit numérique 6) Droit international pertinent pour l'Afrique de l'Ouest. "
-              "Pour chaque actualité : titre, date, source, résumé en 2-3 phrases, lien. "
-              "Si rien de notable pour une rubrique, écris 'Rien de notable aujourd'hui.'. "
-              "Réponds uniquement en Markdown, en français, avec des titres de niveau 2 (##) par rubrique."
-          )
+          rubriques = [
+              ("🇧🇯 Bénin", "Bénin (loi OR décret OR justice OR droit)"),
+              ("⚖️ OHADA / CCJA", "OHADA OR CCJA"),
+              ("🌍 UEMOA", "UEMOA droit"),
+              ("🌍 CEDEAO", "CEDEAO droit"),
+              ("🤖 IA et droit numérique", "intelligence artificielle droit Afrique"),
+              ("🌐 Droit international", "droit international Afrique de l'Ouest"),
+          ]
 
-          payload = {
-              "contents": [{"parts": [{"text": prompt}]}],
-              "tools": [{"google_search": {}}],
-          }
+          lignes = [f"# ⚖️ Veille juridique ACRA — {DATE}\n"]
 
-          req = urllib.request.Request(
-              "https://generativelanguage.googleapis.com/v1beta/models/gemini-flash-latest:generateContent",
-              data=json.dumps(payload).encode("utf-8"),
-              headers={
-                  "x-goog-api-key": os.environ["GEMINI_API_KEY"],
-                  "Content-Type": "application/json",
-              },
-          )
-
-          with urllib.request.urlopen(req) as resp:
-              data = json.load(resp)
-
-          texte = ""
-          for candidate in data.get("candidates", []):
-              for part in candidate.get("content", {}).get("parts", []):
-                  if "text" in part:
-                      texte += part["text"] + "\n"
+          for titre, requete in rubriques:
+              lignes.append(f"\n## {titre}\n")
+              url = f"https://news.google.com/rss/search?q={quote(requete)}&hl=fr&gl=BJ&ceid=BJ:fr"
+              try:
+                  req = Request(url, headers={"User-Agent": "Mozilla/5.0"})
+                  with urlopen(req, timeout=20) as resp:
+                      data = resp.read()
+                  root = ET.fromstring(data)
+                  items = root.findall(".//item")[:5]
+                  if not items:
+                      lignes.append("Rien de notable aujourd'hui.\n")
+                  for item in items:
+                      titre_article = html.unescape(item.findtext("title", ""))
+                      lien = item.findtext("link", "")
+                      date_pub = item.findtext("pubDate", "")
+                      lignes.append(f"- **{titre_article}** ({date_pub}) — [Lire]({lien})\n")
+              except Exception as e:
+                  lignes.append(f"Erreur de récupération : {e}\n")
 
           with open(FICHIER, "w", encoding="utf-8") as f:
-              f.write(f"# ⚖️ Veille juridique ACRA — {DATE}\n\n")
-              f.write(texte)
+              f.write("".join(lignes))
           EOF
 
       - name: Enregistrer la veille
