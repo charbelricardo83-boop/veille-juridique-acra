@@ -19,7 +19,7 @@ jobs:
       - name: Générer la veille (Google News RSS)
         run: |
           python3 - <<'EOF'
-          import os, html
+          import os, html, json
           from datetime import date
           from urllib.request import urlopen, Request
           from urllib.parse import quote
@@ -29,6 +29,7 @@ jobs:
           DATE = today.strftime('%d-%m-%Y')
           ANNEE = today.strftime('%Y')
           os.makedirs(f"veille/{ANNEE}", exist_ok=True)
+          os.makedirs("docs", exist_ok=True)
           FICHIER = f"veille/{ANNEE}/{DATE}.md"
 
           rubriques = [
@@ -40,10 +41,12 @@ jobs:
               ("🌐 Droit international", "droit international Afrique de l'Ouest"),
           ]
 
-          lignes = [f"# ⚖️ Veille juridique ACRA — {DATE}\n"]
+          lignes_md = [f"# ⚖️ Veille juridique ACRA — {DATE}\n"]
+          data_json = {"date": DATE, "rubriques": []}
 
           for titre, requete in rubriques:
-              lignes.append(f"\n## {titre}\n")
+              lignes_md.append(f"\n## {titre}\n")
+              rubrique_json = {"titre": titre, "articles": []}
               url = f"https://news.google.com/rss/search?q={quote(requete)}&hl=fr&gl=BJ&ceid=BJ:fr"
               try:
                   req = Request(url, headers={"User-Agent": "Mozilla/5.0"})
@@ -52,23 +55,29 @@ jobs:
                   root = ET.fromstring(data)
                   items = root.findall(".//item")[:5]
                   if not items:
-                      lignes.append("Rien de notable aujourd'hui.\n")
+                      lignes_md.append("Rien de notable aujourd'hui.\n")
                   for item in items:
                       titre_article = html.unescape(item.findtext("title", ""))
                       lien = item.findtext("link", "")
                       date_pub = item.findtext("pubDate", "")
-                      lignes.append(f"- **{titre_article}** ({date_pub}) — [Lire]({lien})\n")
+                      lignes_md.append(f"- **{titre_article}** ({date_pub}) — [Lire]({lien})\n")
+                      rubrique_json["articles"].append({"titre": titre_article, "lien": lien, "date": date_pub})
               except Exception as e:
-                  lignes.append(f"Erreur de récupération : {e}\n")
+                  lignes_md.append(f"Erreur de récupération : {e}\n")
+              data_json["rubriques"].append(rubrique_json)
 
           with open(FICHIER, "w", encoding="utf-8") as f:
-              f.write("".join(lignes))
+              f.write("".join(lignes_md))
+
+          with open("docs/veille.json", "w", encoding="utf-8") as f:
+              json.dump(data_json, f, ensure_ascii=False, indent=2)
           EOF
 
       - name: Enregistrer la veille
         run: |
           git config user.name "ACRA Veille"
           git config user.email "acra-veille@users.noreply.github.com"
-          git add veille/
+          git add veille/ docs/
           git commit -m "Veille juridique du jour" || echo "Rien à commit"
           git push
+
