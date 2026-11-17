@@ -1,9 +1,14 @@
 {
-  "date": "16-11-2026",
+  "date": "17-11-2026",
   "rubriques": [
     {
       "titre": "🇧🇯 Bénin",
       "articles": [
+        {
+          "titre": "Affaire Kemi Seba : la justice sud-africaine rouvre la voie à une extradition vers le Bénin - Jeune Afrique",
+          "lien": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxONWQ4WlNqUFFtcFhXVlhjZDhYbUVaaXhQT1VVVEEzMHZHdWUxZXZCYXM0QlBybklkd0JPUXRXb3U5QXJIcTdxQVBCb19LOTh4aFJzQVVrX29fRXNvZ2ZOYVpRTEZKM25TaWE5Njl3SkhyQVN4TnA0c3E4ZUJ3a0ZoNTBXT1QyOWRLZGlXcHBZaXA2QloxMV91RTMwTWR5amhYUW1XYy0waHB0bHZNQTA1ZHFDdjVBS1dnN2NxZkh1TnhlejRFbmFySEFEOUU3cTRkX1ow?oc=5",
+          "date": "Wed, 07 Oct 2026 07:00:00 GMT"
+        },
         {
           "titre": "Tentative de coup d’État au Bénin de décembre 2025: l’ex-ministre Candide Azannaï a comparu devant la justice - RFI",
           "lien": "https://news.google.com/rss/articles/CBMi-wFBVV95cUxPY2lqYnRLdFlwbFoyM1ozS252akJvTVNfdXVoYngzaU1MZ0JWZzMyOXQydy02NGlIQzQ2bGk5am1iTjVKTWlaRFJ1QmNPQTBrZmpyMUxqSVNoSGpfOGUxbmxIRFRSY2RheFBRTGlsN2ZFN1BHdWhJR3A1cG1qbFhqUWxPOG5yd0FDY1gxalFVb2VlbDdSc05yam5PTHVmLXdVbnpndmR2NEhhRmw2eUU0Y1FWamJ1eGtNZE56RXp1RlZoczlLbXI2Y3pIVkxUdTEzcU1qRjVZYXB1MHl4dUZyZGxjdkhOdHA1LTk3dEg4Y1I3eUhJVjg4UEhHUQ?oc=5",
@@ -23,11 +28,6 @@
           "titre": "Le Bénin adopte une nouvelle loi en faveur de la prévention, la prise en charge et l’élimination de l’infection au VIH - UNAIDS",
           "lien": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPRjc3ZGYteThfU0RJVVNtbW5qcExGeWJqMnBUVktMQjA3LTNoOHZRY0tsNkVTZ21YVjgwaFlNVmJIUFc2YkhaV3huRGJtWXJVUXFGWmhEXzhzYXBJdDAxd3J4cUI1Y19HbS1iaURhU05XVU5saU9WSlEyeFpYOWJYanB3OUFwSS01OWxlRk5aZ2gxRFBrcHc?oc=5",
           "date": "Fri, 20 Feb 2026 08:00:00 GMT"
-        },
-        {
-          "titre": "Droit foncier au Bénin : sécuriser le maintien des veuves sur leurs terres - IRD le Mag",
-          "lien": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQRXJXS3liS01oOFJFRmNmVXlNc1FmejRua0ZpdVhqN3BHZWVLb1g4Q1FYLUoyUnhZMXBTanM4blV6dUhsV25aampmUW50ek9OS1REeGJVVUVDV21HOWNkakpDZkdEME1xVFcydVpkRTFnamxFa19ORDhaQklhaWFxMm9oVXdhTWZJb2x3Sk85MDhLRklUeHNGMl9YX3U?oc=5",
-          "date": "Fri, 13 Feb 2026 08:00:00 GMT"
         }
       ]
     },
@@ -35,9 +35,19 @@
       "titre": "⚖️ OHADA / CCJA",
       "articles": [
         {
+          "titre": "Parution du numéro 87 du Bulletin ERSUMA de Pratique Professionnelle (BEPP) - OHADA.com",
+          "lien": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQYkNpNDVhYUduLUx4NWpGVmdsZXF4cUZBd3IxQVh4aGJfbmMwU2tOcG0yYTEteUtwYUdXUGdFRWxfbHBlUFJETGZma3FiZW1EdkZYRDYtNzRacVF2d1BjOHhld25fVDJhMFBua2VoYzZqQ2swWGkxSnRyZDBwNUdLRk1JS2N0WjNVVFg1VjFGZVpzaFJzY3l2elFqbWNpb3lCcVFSTFd4elMzUGFtM3NJRUxsU1dSUQ?oc=5",
+          "date": "Tue, 17 Nov 2026 07:10:57 GMT"
+        },
+        {
           "titre": "Participation de l'OHADA au forum des entrepreneurs francophones, du 14 au 16 novembre 2026 à Phnom Penh (Cambodge) - OHADA.com",
           "lien": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxPQ2wwSUg5blRVQkstSmd0UE9aREVwRS1saHpuaFhqalhlTWxUVmF5Z2tIRFZBa0hZMmFCcDNteGV4R0tIN1h4c1otT1VUZlRmbU5mQ2V2Q2VWdjJOX2lDa1lYYmU0Ym9EQ2l4a1pMd05QeWZGQ2dORFJmZnhGWEZxTHQwZ0FjSTlRUkxjZ2FhYi1DY0FhQzN2Y0VoUUdIRGJWa0s1cGRZSmxwTHNEZzdVb2xXN2xmenFGT2F3d2Fza0lJa0VkRFNWYlRJNnNlTXhLN3U3VERMRmRfbDF5YTFJQU1IVzJVcnNm?oc=5",
           "date": "Mon, 16 Nov 2026 11:37:23 GMT"
+        },
+        {
+          "titre": "Accueil des nouveaux bacheliers de la section AUPROHADA de l'Université Alassane Ouattara de Bouaké (AUPROHADA-UAO) - OHADA.com",
+          "lien": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxOdWVfb0RqMHVvWEZoSVFRSnFFT2JGbUlUbkhtYk1TbUN2Zm02T1FQeWJrWklXS3FqTl9kMWhLOHZ6c3lLWTdZT2FIMnNvVTYwNHdScUJvelBLQlhwaDZ4NjlUaXEtcTUySkdaYU0wZUxWOGwyMW5WUkl0ZWlhaHRlcVBUMlRTcUpyZDMwZWdHWldSX2RkVzIwZ3RuR3BDdnZuYjhxUDRQekVmQ2Rsdmlud0E2TGZSWWxMRTE5Rl8taE93NFkybU1uc1FZNEI2Tlp4RXFOb0tMbzVFUGJmY1lSbGhqVGhobktWX2c?oc=5",
+          "date": "Tue, 17 Nov 2026 07:26:46 GMT"
         },
         {
           "titre": "Semaine de l'adhésion de la section AUPROHADA UCAO-UUA, du 16 au 20 novembre 2026 à Abidjan - OHADA.com",
@@ -48,16 +58,6 @@
           "titre": "Formation sur l'Acte uniforme relatif au système comptable des entités à but non lucratif, le 21 novembre 2026 à Abidjan - OHADA.com",
           "lien": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxQRGFVemFPSk1ZRXQwbHVINlNKRERpTG5LU3l0cGt2MkEyVENTSnhmZ21rcE1QclBLOHRHb18tc1NNcjBHOTMyRG8xSG44dG9jclpBbVZ1aG9uaWdYemswN0VQc1Nwbkp6Q1I0M01UejNMYWcxWnZOb29wSzVhOFZTcmZDTDVTWVhMNHc5UWJmR3pIZTRINWVqRlBlMkE1Mm5WNHFwSWhRd0g4SDdOUS1xZ3lYTkNBUHR1Y0FnOEEyUUNMMzQ4UE1IQzg4MHNJclVYOUQ0TTJVazQ2YWxULTNBQUFlV2VoUVVXdERaUXFpUW01UQ?oc=5",
           "date": "Mon, 16 Nov 2026 07:07:19 GMT"
-        },
-        {
-          "titre": "OHADA : des textes harmonisés, une exécution encore perfectible - Forbes Afrique",
-          "lien": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPQUp4SDF1ZTBEMkxUUkQtdU94MW81ay1Qb0FpVW05OE5XSGtqUklKeGtXYmRYWTBkQW1SVTN3WGg4Z0x3d1VNWXk5TXJaWHlINnRHYjhGR2NMSjdyd0JkTVVvY2hNSWNjYzZHS3RSQ29ZWnhUYnpZNlVyWnhEeGF6WXpyNjR2bnl3eGlWbEd1WEg?oc=5",
-          "date": "Fri, 13 Nov 2026 03:32:00 GMT"
-        },
-        {
-          "titre": "Journées du Droit des affaires OHADA de l'étudiant les 20 et 21novembre 2026 Ouagadougou (Burkina Faso) - OHADA.com",
-          "lien": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxQT2NMWlJSWUhZWW1nbllqMVdjZVJmQzFRSF9fM0dQTi1SWDF2R0daSTlUTWtjNHk3TWt6YUFvZnR1WUVMN0dibjJ2dElVUzh1bnpMVDVueFE2cU9EN3pUOEQ0NVZQY3VTYWxiVi15bzNtZDRtTk1ITTlPSHgwbEY2RnhnWDlSVWtQbjYxaTFTanB2dW0zV0tfQkZUS2hoamkzNlBwMFdxdU5rajFCUWN1SmZCRWdnQ1N2MVNPNzZHMUJkcDhrTjNPSWNkalNxZVNLRjdrQXRFSm1Rdw?oc=5",
-          "date": "Thu, 12 Nov 2026 09:46:06 GMT"
         }
       ]
     },
@@ -65,19 +65,9 @@
       "titre": "🌍 UEMOA",
       "articles": [
         {
-          "titre": "Mali: l'Uemoa reconnaît l'illégalité des sanctions imposées en 2022, une victoire pour la Transition - RFI",
-          "lien": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxNd3dqRGJQV3R0ZXJtdU4wZ3JidktuUU5sVzl6UHpIV2NEcXFaTHMxemdZejFkTmp1OGc3bUNNOHNVaUJmUl9fSVB0aV9ZOUt2LUlTbmprSGp3bUtidEZoVWRHbTNMUlFhelRqRDA5S2IyTHctOC04Tk9JcUtVbFBUaWtMLVpLRWljb2Q2NE9WMjVpUXZWZTJRdmZ0QTlZczBtYTJncEpqRm1KY0xmdjFUVjZyNmlnMlY0clVTU2pjdlg1VTM3MUJHZ2FXY0xta1dPWFJ5U3N6QXZWVWFjSFpwSUFmV3dRZGY0UVROYVB3?oc=5",
-          "date": "Thu, 29 Jan 2026 08:00:00 GMT"
-        },
-        {
           "titre": "UEMOA : La Cour de Justice célèbre ses 30 ans à Ouagadougou en réaffirmant la primauté du droit communautaire - Abidjan.net News",
           "lien": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxNVjBsWm56amdGOHNKeHF5WEhtMEFCQU5ERGZ3NnN0akowOUNDd01RSnQ5dk0wVDFFT1FTYmlHZWtCT052SHV4cHZDR0NERXJHdUR2MTQ5cUhmdURsTUdoZXJYem9ibS16eHJKX2JoNHA2SjgwWk10N0Q1UWhUeFNDbmY5SDJMdnQ5VmpLbWMyTVM3WW4xVkJDSGNLVF8xQU5Dd0FweDJnNmZGMTFtemlRZEsyZUVwY3I1SlZ6dUo0N2UyaU1MNEp4TV9pVVNYcHlqTlFxNUUxV05kd3FFUW5UUA?oc=5",
           "date": "Thu, 05 Nov 2026 10:43:46 GMT"
-        },
-        {
-          "titre": "Sanctions contre le Mali : une victoire juridique pour Bamako qui bouscule l’alignement Uemoa-Cedeao - Jeune Afrique",
-          "lien": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxPdWxIQ012amd1NDRtZ3EtR1pLTE9BMEpEV1k5Qm9nYlJNQTNhcC1YZ3ZPQ1M3aGZsY01JY1VJQy1qMmcyVFg5dnkwU1ZtN2pMUUFSZDFpMHVNaUI3alZvdUk2b1gzaEEydjVUcnhoQ1o0M1JfM0tmd1VlU1hXcTVxQVJqbHkxeDNjRGdfMzZrWk95UXQ1Mm9oT0pvd21YZnA1dlBiOXVFUlcxZmpjYTBMVkZES1B3VTdUQlR6RE5NX3BlQXU2cU1BdG41MlRSbXVMWVJsMnN1RlAtR3Q0RURTb0ZDOTh4aThzVGMwag?oc=5",
-          "date": "Sat, 31 Jan 2026 08:00:00 GMT"
         },
         {
           "titre": "Justice et intégration régionale : la Cour de justice de l’UEMOA célèbre 30 ans de jurisprudence au service d’une Union de droit - ActuNiger",
@@ -85,9 +75,19 @@
           "date": "Wed, 04 Nov 2026 20:59:18 GMT"
         },
         {
-          "titre": "Publication d'un manuel universitaire OHADA-UEMOA intitulé Droit du patrimoine de l'entreprise - OHADA.com",
-          "lien": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxOem54TVg1Y3JfLU9PbFIyWG9NNmVMNnBjWWRLRUFaY2w0SjA2Skh0cEgyZHR5MndQeGJDMHgzNzlLWmdsNkNZTTIxQlhhN3lNY1FHUHNmMHBLTTRxdE10M2xoRHdaR2NOb0R3cTJBLXRCdFBZX1hUcVZDQUhzeW53eGY0MFY5RktpZEs2MDBfQUp6VTRuQjBIc1R2SW9uX1RsY25vQWVoY3pWZVBreEY1UFg1S1EwdWlJbGRvaVNtZ3ozMFpBSjJLblA2UFp1b1pxZEExS1FRaWVLQ2pp?oc=5",
-          "date": "Wed, 01 Apr 2026 07:00:00 GMT"
+          "titre": "UEMOA : la Commission renforce l’application du droit de la concurrence - https://malijet.com/",
+          "lien": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPTzA0Vk5lUWVxdUlBQ2FOMHpnQzRBaURfZDIyQW55VEhaZDUteU54S2liR08tZ2hOWUVrZTg5TU5ySXBUbjU5dkVObXd0WFNLRzg2RHhPQ2hCNVg4YXl4cHRxdGVKS0xFOVdYTTJMQ2d2N1hqTFEzV3BfTzRLNWQtdVZiRmRSa1RMQVE3Wm1feGRjX0JiUy05cWg4LXFjWlBPMC0td3B2NFpUcElPWTZiNXd5dklBcUZF?oc=5",
+          "date": "Wed, 14 Oct 2026 07:00:00 GMT"
+        },
+        {
+          "titre": "Mali: l'Uemoa reconnaît l'illégalité des sanctions imposées en 2022, une victoire pour la Transition - RFI",
+          "lien": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxNd3dqRGJQV3R0ZXJtdU4wZ3JidktuUU5sVzl6UHpIV2NEcXFaTHMxemdZejFkTmp1OGc3bUNNOHNVaUJmUl9fSVB0aV9ZOUt2LUlTbmprSGp3bUtidEZoVWRHbTNMUlFhelRqRDA5S2IyTHctOC04Tk9JcUtVbFBUaWtMLVpLRWljb2Q2NE9WMjVpUXZWZTJRdmZ0QTlZczBtYTJncEpqRm1KY0xmdjFUVjZyNmlnMlY0clVTU2pjdlg1VTM3MUJHZ2FXY0xta1dPWFJ5U3N6QXZWVWFjSFpwSUFmV3dRZGY0UVROYVB3?oc=5",
+          "date": "Thu, 29 Jan 2026 08:00:00 GMT"
+        },
+        {
+          "titre": "Étude technique sur les droits d'auteur dans les pays de l'UEMOA - AFD - Agence Française de Développement",
+          "lien": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOUUw1bDV5Mm1GeTlUdGVRT2s2TWlSLXR0SWhpWXFWcmQtb3RJRlV6d3o3QmlCVjl6Y19UZm11SHdvRkxEYjh1TGtpRjFIQWFCSXJHVTcycklLT0IwZWFoQlNyLUhkZFpkSFM4MDNWTm81Ymd2cXE0Ty1yWUpkSi1yR0dyS3NUcGNjZ3RwZ2JhaVU3T0MyVnFzdExxZw?oc=5",
+          "date": "Wed, 01 Aug 2018 07:00:00 GMT"
         }
       ]
     },
@@ -110,25 +110,20 @@
           "date": "Fri, 26 Jun 2026 07:00:00 GMT"
         },
         {
-          "titre": "» Les leçons de l’arrêt de la Cour de Justice de la CEDEAO du 5 juillet 2023 – Hassane Abdou Nouhou c/ la République du Niger (ECW/CCJ/JUD/30/23) - Revue des droits et libertés fondamentaux",
-          "lien": "https://news.google.com/rss/articles/CBMiiwJBVV95cUxPY01hTHlXbWdGQUljc0tuTThsejdoMWNjRU9scUpkYVpzeTBtc2VLQ21rNU4xNWlPaWtJeDJxOUZGcTdBR0g4V3ZLMGw5bmlsRU1Uc19LYndSblhvb1BVY1RtTC1TOU1xMzliMXppLXZIbmVLZkdoeFZpdnZjcUtnYTJRTEtJaENVRzhzbVNSdERERUEwQllNaXlPTHoxZ21xV3dhN3E3SW9OS1R4UmxtVFFwaE9LYjdtT0RDLUo1MlF5NXJZcG14cENNQ2lOMzIyam9GTkVtSGdKOEVrZVNrdnAwLUVLLWZPWXB2bWt1ODFhbUpwcTJzNFA1SHBtRnRvR1R1SU5mUmJidEk?oc=5",
-          "date": "Wed, 05 Jul 2023 07:00:00 GMT"
-        },
-        {
           "titre": "La crise du Niger et les perspectives d’intervention militaire : que dit le droit international ? - www.grip.org",
           "lien": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOZUc2NlQyaVBGQy1WZFBWczN1U1diNWdsbG5GcC1nRjVyTUdKNm1OdUdrS1BSUDJvOFU1SDJqcG5QZG8ycmNrT1JHN182MENMNkYwNmN2YlpVMmN6QTRvWWpPbGVNZm9WUHJXbXJCTGdVekpic0pETm9WWGtuVnBsVjVCOXNCLXNheHRJVzdPNXBHT3ZaeDNiSGZDUUl3b21tY2lLY3dUTDEyNC1vOU1BdWoxTHY?oc=5",
           "date": "Mon, 09 Oct 2023 07:00:00 GMT"
+        },
+        {
+          "titre": "» Les leçons de l’arrêt de la Cour de Justice de la CEDEAO du 5 juillet 2023 – Hassane Abdou Nouhou c/ la République du Niger (ECW/CCJ/JUD/30/23) - Revue des droits et libertés fondamentaux",
+          "lien": "https://news.google.com/rss/articles/CBMiiwJBVV95cUxPY01hTHlXbWdGQUljc0tuTThsejdoMWNjRU9scUpkYVpzeTBtc2VLQ21rNU4xNWlPaWtJeDJxOUZGcTdBR0g4V3ZLMGw5bmlsRU1Uc19LYndSblhvb1BVY1RtTC1TOU1xMzliMXppLXZIbmVLZkdoeFZpdnZjcUtnYTJRTEtJaENVRzhzbVNSdERERUEwQllNaXlPTHoxZ21xV3dhN3E3SW9OS1R4UmxtVFFwaE9LYjdtT0RDLUo1MlF5NXJZcG14cENNQ2lOMzIyam9GTkVtSGdKOEVrZVNrdnAwLUVLLWZPWXB2bWt1ODFhbUpwcTJzNFA1SHBtRnRvR1R1SU5mUmJidEk?oc=5",
+          "date": "Wed, 05 Jul 2023 07:00:00 GMT"
         }
       ]
     },
     {
       "titre": "🤖 IA et droit numérique",
       "articles": [
-        {
-          "titre": "Droit des affaires, EnR : l’Afrique aux commandes - Forbes Afrique",
-          "lien": "https://news.google.com/rss/articles/CBMifEFVX3lxTE1zRklrLWl0cUJObVJQVHpwajJNb1JqTTdjSGU5c0lVRXZqMk5ObnJxcWpOcWtDWFZvZEZmQkttX0pyZWFkOWhQTVZXaXlWRG43aVZnMFl6MjhxcXozMjNjTmdlel9rWG41cTc0dUExWThRM0pkZ182YlVQeGQ?oc=5",
-          "date": "Mon, 16 Nov 2026 03:32:00 GMT"
-        },
         {
           "titre": "Intelligence artificielle et Etat de droit : un atelier régional pour - UNESCO",
           "lien": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPMzVWcEhnY0ctVG1tOThlZnBRa1NDclRhUlRLUjBzbTlia1VNYjF4b3h1UklDaE5pVGJpZ2RKNEZkanFucjBNemRkenRsN3BGTmRKTVowOTZZZUVEWmIwZktJQ1N4X1FjdHIzQ0swRng1b2NkR3dKblcxdmJ3eWZ5MThJR05jM3cwZmMya0QwSjJQQ3Q5eFhZUmdCbUtKMHRwdG9PSkpSN1RjMVZZVnNucjRZR3BKUXdWSlEwX05jVm94bjdPOGtmcXZHQQ?oc=5",
@@ -143,6 +138,11 @@
           "titre": "Brésil, Afrique du Sud, Espagne… : le droit économique offre une opportunité pour réguler les plateformes et protéger l’information - RSF",
           "lien": "https://news.google.com/rss/articles/CBMixgFBVV95cUxOSTRSbG9lLWdqd3FzOHNpMURsZy05Y0dodTFfNE83dWs5dnJCOHJWa3N5bHAzOHNsaktwakxhZ0dlM0RwcE00R0NZODZXOWVCY1dWV0JpZHFqblp4Q2FrYUdCNnRyYmJQVkg1Ykp1QW9WZENmQzc1TmRkNjRIaVBpY0VnUXY3QUZrLXBlQ1pwWHV1LWt5VkxIaklVWWZCLXV3WnFranBBaDhXRmhGeVNLbno5M1JUZTJBOTNNQ2txQ0dxV0xHcGc?oc=5",
           "date": "Tue, 02 Dec 2025 08:00:00 GMT"
+        },
+        {
+          "titre": "Résolution sur la nécessité d’élaborer une étude sur les droits de l’homme et des peuples et l’intelligence artificielle (IA), la robotique et d’autres technologies nouvelles et émergentes en Afrique - CADHP/Rés.473(XXXI) 2021 - African Commission on Human and Peoples' Rights",
+          "lien": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQcUVDMTI4ZEpaNU1hY2hFOEtRX0VBdzZ3TEhLMjVFY1JiazBwekt1MnBhSEJMSWdjVXIyRHM5SU5DNjNHbTktLTFuM19MWTVpZW5KaWRSQVJmTTNxeGlid295cjY0UkRmMXFvQ3hrUm5QbTVQa0QzZUwwdkI2Skk1RnpfUVB1QmhFdjBOVHBYYW05TlZNa0FfcXJYSFI2MXJmMUxHYng2UVBPZFZrX0wxcm54WWpqTUM1Nmk3eWdGWU4?oc=5",
+          "date": "Sat, 25 Nov 2023 12:15:04 GMT"
         },
         {
           "titre": "Séminaire de développement d'une stratégie d'intelligence artificielle dans le domaine de la sécurité - Africa Center for Strategic Studies",
@@ -165,19 +165,19 @@
           "date": "Fri, 16 Oct 2026 07:00:00 GMT"
         },
         {
-          "titre": "De la loi à l’action (régionale) : Rapports régionaux sur la mise en œuvre du droit international humanitaire - ICRC",
-          "lien": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNWG15SVFiMHBsSjJraERUQUplQjB4VXZHZmVjNzZWZ3hKRVpWeDhUY1Y4dkJKX2VqT2pkTmJUWHVqQTdyTHNjQnFZeUh3c1B3dDVZSFcxVDhEUHFJN29oWWROLXc1d0Iyd0ZaMWg3dmo3UFNJa2hwQ1pxR1VzSzJkbEdxSkZyMVVYZ3JOYWc4UlQwUm84LUs4elZWTENjMUxwWl9zVFoyR2ZTaFNwTEZTaENzNTdoQ2RJY3c?oc=5",
-          "date": "Wed, 26 Mar 2025 07:00:00 GMT"
-        },
-        {
-          "titre": "Afrique : pourquoi les décisions des tribunaux des droits humains restent souvent lettre morte - UN News",
-          "lien": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE5tZEVrV2l3WkpDZkFlekU2dm5fUTRSOFFYb0hMMHlnSnFFbUYzbHNYaktLNV96QUc3U0RzaXNHQUVsLTZ3Vm5pa0pjX0RFZ1g1dS1oX19obw?oc=5",
-          "date": "Tue, 21 Jul 2026 07:00:00 GMT"
+          "titre": "Le blocus ne doit pas enfreindre les droits économiques et sociaux - Amnesty International",
+          "lien": "https://news.google.com/rss/articles/CBMic0FVX3lxTE42WDZPNU5PWVlwOWZ6Rng1dldyNmtoSW84VDBTNUVVR2k2ZGpKNE1tWEIxbzFRT3ZXU1Y2d3AzQzlOdnQwbGxqTnhNeXRpZXpYTU5wZ2JMbUlDVmV6eEpQdGxpTHdxYklyUzQybTRfSWtvbEk?oc=5",
+          "date": "Fri, 15 May 2026 07:00:00 GMT"
         },
         {
           "titre": "\"Des millions de personnes sont privées de leurs droits\" : les droits de l’Homme attaqués au nom de la sécurité - tv5monde",
           "lien": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxOdENRQXQyMXI4QkU3QXRpZUtLTDVsT0tNWTFpRHpTN0E3d183SUU3UVhKQ3BCRWZRWUdnSzRzUVhoaGhHM0VfaUdTUzhTcGdLajljUFAzWmRSQ3REZXV5VFNYTXlZSklsUzg0UWdScDl5dS05c3dxWUlZS2hDQmRiV0JEV292UEVybXAtT0VqQm9pWDR2bWtQXzVIS0d5azExWlhrZThrYU9zLXY5S2ZwbW1MaUIyS3pnck82cFAtcVYyUWZzVzI3YlFjUzBZMFpXV0tJUXhDekJhVmQ0RmxXT3BtNXlsZDRXY3hBc3p5ekZtQ0E?oc=5",
           "date": "Tue, 09 Dec 2025 08:00:00 GMT"
+        },
+        {
+          "titre": "De la loi à l’action (régionale) : Rapports régionaux sur la mise en œuvre du droit international humanitaire - ICRC",
+          "lien": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNWG15SVFiMHBsSjJraERUQUplQjB4VXZHZmVjNzZWZ3hKRVpWeDhUY1Y4dkJKX2VqT2pkTmJUWHVqQTdyTHNjQnFZeUh3c1B3dDVZSFcxVDhEUHFJN29oWWROLXc1d0Iyd0ZaMWg3dmo3UFNJa2hwQ1pxR1VzSzJkbEdxSkZyMVVYZ3JOYWc4UlQwUm84LUs4elZWTENjMUxwWl9zVFoyR2ZTaFNwTEZTaENzNTdoQ2RJY3c?oc=5",
+          "date": "Wed, 26 Mar 2025 07:00:00 GMT"
         }
       ]
     }
